@@ -3,7 +3,7 @@
 
 body {
 	min-width: 1174px;
-	font: 15px/18px 'Roboto', sans-serif;
+	font: 400 15px/18px 'Roboto', sans-serif;
 	color: #8e8e8e;
 	background: #ffffff;
 }
@@ -199,6 +199,23 @@ a:hover {
 .text-box h2,
 .text-box p{
 	text-align: center;
+}
+
+.text-box h2 {
+	font: 300 italic 25px 'Roboto', sans-serif;
+	color: #131316;
+	margin-bottom: 25px;
+}
+
+.text-box p {
+	color: #ffffff;
+}
+
+
+.portfolio h1 {
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	margin-bottom: 32px;
 }
 
 .portfolio-list{
