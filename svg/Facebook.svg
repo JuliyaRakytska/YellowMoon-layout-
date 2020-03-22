@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 17" width="8" height="17">
+	<defs>
+		<image width="8" height="17" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5IDE5IiB3aWR0aD0iOSIgaGVpZ2h0PSIxOSI+Cgk8ZGVmcz4KCQk8Y2xpcFBhdGggY2xpcFBhdGhVbml0cz0idXNlclNwYWNlT25Vc2UiIGlkPSJjcDEiPgoJCQk8cGF0aCBkPSJNMSAxTDkgMUw5IDE4TDEgMThaIiAvPgoJCTwvY2xpcFBhdGg+Cgk8L2RlZnM+Cgk8c3R5bGU+CgkJdHNwYW4geyB3aGl0ZS1zcGFjZTpwcmUgfQoJCS5zaHAwIHsgZmlsbDogI2ZmZmZmZiB9IAoJPC9zdHlsZT4KCTxnIGlkPSJQYWdlIDEiIGNsaXAtcGF0aD0idXJsKCNjcDEpIj4KCQk8cGF0aCBpZD0iUGF0aCAxIiBjbGFzcz0ic2hwMCIgZD0iTTguOTcgNi40TDYuMjYgNi40TDYuMjYgNC42MkM2LjI2IDMuOTUgNi43IDMuNzkgNy4wMSAzLjc5TDguOTMgMy43OUw4LjkzIDAuODVMNi4yOSAwLjg0QzMuMzYgMC44NCAyLjY5IDMuMDMgMi42OSA0LjQ0TDIuNjkgNi40TDEgNi40TDEgOS40M0wyLjY5IDkuNDNMMi42OSAxOEw2LjI2IDE4TDYuMjYgOS40M0w4LjY2IDkuNDNMOC45NyA2LjRaIiAvPgoJPC9nPgo8L3N2Zz4="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<use id="Facebook" href="#img1" transform="matrix(1.003,0,0,0.991,0,0)"/>
+	</g>
+</svg>
