@@ -1,11 +1,12 @@
-*{box-sizing: border-box;}
-
+* {
+  box-sizing: border-box;
+}
 
 body {
-	min-width: 1174px;
-	font: 400 15px/18px 'Roboto', sans-serif;
-	color: #8e8e8e;
-	background: #ffffff;
+  min-width: 1174px;
+  font: 400 15px/18px "Roboto", sans-serif;
+  color: #8e8e8e;
+  background: #ffffff;
 }
 
 a {
@@ -13,346 +14,392 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-	color: #131316;
-	text-decoration: none;
-	background: #ffffff;
-}
-
 .intro {
-	background: #89898b;
-	height: 100vh;
-	min-height: 500px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	
+  background: #89898b;
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.intro-content{
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.intro-content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .intro-content > img {
-	margin-bottom: 55px;
+  margin-bottom: 55px;
 }
 .intro-content > p {
-	color: #ffffff;
-	margin-bottom: 35px;
-	font-weight: 300;
-	letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 35px;
+  font-weight: 300;
+  letter-spacing: 0px;
 }
 
 .intro-content > h1 {
-	color: #ffe600;
-	font-size: 40px;
-	font-weight: 300;
-	letter-spacing: 2px;
-	margin-bottom: 90px;
+  color: #ffe600;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 90px;
 }
 
 .btn {
-	text-align: center;
-	padding-top: 20px;
-	width: 232px;
-	height: 62px;
-	background: #89898b;
-	border: 1px solid #ffe600;
-	margin-bottom: 48px;
-	color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  width: 232px;
+  height: 62px;
+  background: #89898b;
+  border: 1px solid #ffe600;
+  margin-bottom: 48px;
+  color: #ffffff;
 }
 
+.btn:hover {
+  color: #131316;
+  text-decoration: none;
+  background: #ffffff;
+}
 
 .intro-content > .icon-arrow-down {
-	color: #ffffff;
-	width: 38px;
-	height: 20px;
-	position: relative;
+  color: #ffffff;
+  width: 38px;
+  height: 20px;
+  position: relative;
 }
 
-.intro-content > .icon-arrow-down:before{
-	position: absolute;
-	left: 0;
-	top: 0;
-	font-size: 20px;
-	color: #ffffff;
+.intro-content > .icon-arrow-down:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  color: #ffffff;
 }
-
 
 .header {
-	border-bottom: 1px solid #ffe600;
-	overflow: hidden;
+  border-bottom: 1px solid #ffe600;
+  overflow: hidden;
 }
 .header-wrap {
-	width: 1170px;
-	margin: auto;
-	overflow: hidden;
+  width: 1170px;
+  margin: auto;
+  overflow: hidden;
 }
 .header img {
-	float: left;
-	margin-top: 35px;
-	margin-bottom: 38px;
+  float: left;
+  margin-top: 35px;
+  margin-bottom: 38px;
 }
 
 .header ul {
-	float: right;
-	margin-top: 50px;
+  float: right;
+  margin-top: 50px;
 }
 
 .header ul li {
-	float: left;
-	margin-right: 10px;
-	margin-left: -12px;
-	}
-
-/*.header ul li:last-child {
-	margin-right: 5px;
-}*/
+  float: left;
+  margin-right: 10px;
+  margin-left: -12px;
+}
 
 .header li a {
-	border: 1px solid transparent;
-	padding: 13px 24px 16px 23px;
+  border: 1px solid transparent;
+  padding: 13px 24px 16px 23px;
 }
 
 .header li a:hover {
-	border: 1px solid #ffe600;
-	padding: 13px 24px 16px 23px;
+  border: 1px solid #ffe600;
+  padding: 13px 24px 16px 23px;
+  color: #131316;
 }
 
 .about-us,
 .portfolio {
-	width: 1174px;
-	margin: auto;
-	min-height: 596px;
-	display: flex;
+  width: 1174px;
+  margin: auto;
+  min-height: 596px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.portfolio{
-	min-height: 936px;
+.portfolio {
+  min-height: 936px;
 }
 .about-us h1,
 .portfolio h1,
 .contact-us h1 {
-	color: #131316;
-	font-size: 25px;
-	line-height: 28px;
-	text-align: center;
-	margin-bottom: 120px;
+  color: #131316;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 120px;
 }
 .about-us h1 span,
 .portfolio h1 span,
 .more span,
 .clients h1 span,
 .contact-us h1 span {
-	color: #ffe600;
-	font-size: 15px;
-	display: block;
-	padding-top: 20px;
-
+  color: #ffe600;
+  font-size: 15px;
+  display: block;
+  padding-top: 20px;
 }
-.about-us-list{
-	display: flex;
-	justify-content: space-around;
+.about-us-list {
+  display: flex;
+  justify-content: space-around;
 }
-.about-us-list li{
-	width: 300px;
+.about-us-list li {
+  width: 300px;
 }
 
 .num {
-	font: 300 25px 'Roboto', sans-serif;
-	display: block;
-	color: #ffe600;
-	height: 40px;
-	width: 60px;
-	float: left;
-	padding: 8px 17px 14px 21px;
-	border-right: 1px solid #ffe600;
-	}
+  font: 300 25px "Roboto", sans-serif;
+  display: block;
+  color: #ffe600;
+  height: 40px;
+  width: 60px;
+  float: left;
+  padding: 8px 17px 14px 21px;
+  border-right: 1px solid #ffe600;
+}
 
 .about-us-list li h2 {
-	float: left;
-	font-weight: 400;
-	color: #131316;
-	padding-top: 11px;
-	margin-bottom: 32px;
-	padding-left: 15px;
-
+  float: left;
+  font-weight: 400;
+  color: #131316;
+  padding-top: 11px;
+  margin-bottom: 32px;
+  padding-left: 15px;
 }
 
 .about-us-list li div {
-	clear: both;
-	text-align: center;
+  clear: both;
+  text-align: center;
 }
 
-
-
-.text-box-wrapper{
-	background: #ffeb33;
+.text-box-wrapper {
+  background: #ffeb33;
 }
 
-.text-box{
-	width: 1170px;
-	margin: auto;
-	min-height: 600px;
-	padding: 20px 0 20px;
-	display: flex;
+.text-box {
+  width: 1170px;
+  margin: auto;
+  min-height: 600px;
+  padding: 20px 0 20px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .text-box h2,
-.text-box p{
-	text-align: center;
+.text-box p {
+  text-align: center;
 }
 
 .text-box h2 {
-	font: 300 italic 25px/40px 'Roboto', sans-serif;
-	color: #131316;
-	letter-spacing: 1px;
-	margin-bottom: 25px;
+  font: 300 italic 25px/40px "Roboto", sans-serif;
+  color: #131316;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
 }
 
 .text-box p {
-	color: #ffffff;
+  color: #ffffff;
 }
 
-
 .portfolio h1 {
-	text-transform: uppercase;
-	letter-spacing: -1px;
-	margin-bottom: 120px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 120px;
 }
 
 .portfolio-list {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin-bottom: 27px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 27px;
 }
-.portfolio-list li{
-	height: 200px;
-	width: 270px;
-	margin-bottom: 30px;
-	background: #f3f3f3;
-	position: relative;
+.portfolio-list li {
+  height: 200px;
+  width: 270px;
+  margin-bottom: 30px;
+  background: #f3f3f3;
+  position: relative;
 }
 
-.portfolio-list li div{
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 200px;
-	width: 270px;
-	background: #ffeb33;
-	display: flex;
+.portfolio-list li div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 200px;
+  width: 270px;
+  background: #ffeb33;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .portfolio-list li div strong,
-.portfolio-list li div span{
-	display: block;
-	text-align: center;
+.portfolio-list li div span {
+  display: block;
+  text-align: center;
 }
-.portfolio-list li div{
-	display: none;
+.portfolio-list li div {
+  display: none;
 }
-.portfolio-list li:hover div{
-	display: flex;
+.portfolio-list li:hover div {
+  display: flex;
 }
 .portfolio-list li div strong {
-	color: #131316;
-	font-size: 20px;
-	margin-bottom: 18px;
+  color: #131316;
+  font-size: 20px;
+  margin-bottom: 18px;
 }
 .portfolio-list li div span {
-	color: #ffffff;
-	font-size: 15px;
+  color: #ffffff;
+  font-size: 15px;
 }
 
 .more span {
-	text-align: center;
-	margin-bottom: 29px;
+  text-align: center;
+  margin-bottom: 29px;
 }
-
 
 .more a,
 .more a:hover {
-	color: #472e2e;
-	width: 38px;
-	height: 20px;
-	position: relative;
-	display: block;
-	margin: auto;
-
+  color: #472e2e;
+  width: 38px;
+  height: 20px;
+  position: relative;
+  display: block;
+  margin: auto;
 }
 
-
 .clients {
-	background: #424245;
-	width: 100%;
+  background: #424245;
+  width: 100%;
 }
 
 .clients h1 {
-	color: #ffffff;
-	font-size: 25px;
-	line-height: 28px;
-	text-align: center;
-	margin-bottom: 120px;
-	padding-top: 120px;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 120px;
+  padding-top: 120px;
 }
 
 .clients h1 span {
-	padding-top: 21px;
-
+  padding-top: 21px;
 }
 
 .clients-list {
-	max-width: 1170px;
-	margin: auto;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	padding-bottom: 125px;
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 125px;
+}
+
+.clients-list li {
+  margin: auto;
 }
 
 .contact-us {
-	max-width: 1170px;
-	height: 800px;
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  max-width: 1170px;
+  height: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 form {
-	text-align: center;
-	
-	margin: auto;
+  text-align: center;
+
+  margin: auto;
 }
 
 .row {
-	width: 970px;
-	margin: auto;
-	overflow: hidden;
+  width: 970px;
+  margin: auto;
+  overflow: hidden;
 }
 
 .row-name {
-	margin-right: 29px;
-	width: 470px;
-	overflow: hidden;
-	float: left;
+  margin-right: 29px;
+  width: 470px;
+  overflow: hidden;
+  float: left;
 }
+
 
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {
   position: absolute;
-  left: -9999px;
+  left: 0;
+  opacity: 0.01;
 }
 [type="checkbox"]:not(:checked) + label,
 [type="checkbox"]:checked + label {
+  position: relative;
+  font-size: 1.05em;
+  line-height: 1.7;
+  cursor: pointer;
+  float: left;
+  padding: 0 30px 10px;
+}
+[type="checkbox"]:not(:checked) + label:before,
+	[type="checkbox"]:checked + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ffe600;
+  background: #fff;
+  border-radius: 0.2em;
+  transition: all 0.275s;
+}
+
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 0.25em;
+  left: 0.25em;
+  font-size: 1.375em;
+  background: #ffe600;
+  line-height: 0;
+  transition: all 0.2s;
+}
+
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0) rotate(45deg);
+}
+
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1) rotate(0);
+}
+
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
   position: relative;
   padding-top: 3px;
   padding-left: 30px;
@@ -361,157 +408,112 @@ form {
   margin-right: 54px;
   margin-bottom: 19px;
   color: #131316;
-  font: 400 14px 'Roboto', sans-serif;
-}
-[type="checkbox"]:not(:checked) + label:before,
-[type="checkbox"]:checked + label:before {
-  content: '';
-  position: absolute;
-  left: 0; top: 0;
-  width: 20px; 
-  height: 20px;
-  border: 2px solid #ffe600;
-  background: #fff;
-}
-
-[type="checkbox"]:not(:checked) + label:after,
-[type="checkbox"]:checked + label:after {
-  content: '';
-  position: absolute;
-  top: 3px; left: 3px;
-  width: 14px;
-  height: 14px;
-  color: #ffe600;
-  transition: all .2s;
-}
-
-[type="radio"]:checked,
-[type="radio"]:not(:checked) {
-    position: absolute;
-    left: -9999px;
-}
-[type="radio"]:checked + label,
-[type="radio"]:not(:checked) + label
-{
-    position: relative;
-    padding-top: 3px;
-    padding-left: 30px;
-    cursor: pointer;
-    display: inline-block;
-    float: left;
-  	margin-right: 54px;
-  	margin-bottom: 19px;
-    color: #131316;
-    font: 400 14px/16px 'Roboto', sans-serif;
+  font: 400 14px/16px "Roboto", sans-serif;
 }
 [type="radio"]:checked + label:before,
 [type="radio"]:not(:checked) + label:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 19px;
-    height: 19px;
-    border: 2px solid #ffe600;;
-    border-radius: 100%;
-    background: #fff;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 19px;
+  height: 19px;
+  border: 2px solid #ffe600;
+  border-radius: 100%;
+  background: #fff;
 }
+
 [type="radio"]:checked + label:after,
 [type="radio"]:not(:checked) + label:after {
-    content: '';
-    width: 11px;
-    height: 11px;
-    background: #ffe600;
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    border-radius: 100%;
-    transition: all 0.2s ease;
+  content: "";
+  width: 11px;
+  height: 11px;
+  background: #ffe600;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  border-radius: 100%;
+  transition: all 0.2s ease;
 }
 [type="radio"]:not(:checked) + label:after {
-    opacity: 0;
-    transform: scale(0);
+  opacity: 0;
+  transform: scale(0);
 }
 [type="radio"]:checked + label:after {
-    opacity: 1;
-    transform: scale(1);
+
+  opacity: 1;
+  transform: scale(1);
 }
 
-
-input[type=text],
+input[type="text"],
 .textarea {
-	background: #ffe600;
-	width: 970px;
-	padding: 20px 22px 20px 22px;
-	margin-bottom: 20px;
-	border: none;
+  background: #ffe600;
+  width: 970px;
+  padding: 20px 22px 20px 22px;
+  margin-bottom: 20px;
+  border: none;
 }
 
-.row-name input[type=text] {
-	background: #ffe600;
-	width: 470px;
-	padding: 20px 22px 20px 22px;
-	margin-right: 30px;
-	margin-bottom: 20px;
-	border: none;
+.row-name input[type="text"] {
+  background: #ffe600;
+  width: 470px;
+  padding: 20px 22px 20px 22px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border: none;
 }
 
-input[type=text]::placeholder,
+input[type="text"]::placeholder,
 .textarea::placeholder {
-	color: #ffffff;
-	font: 400 15px/18px 'Roboto', sans-serif;
+  color: #ffffff;
+  font: 400 15px/18px "Roboto", sans-serif;
 }
 
 .row-name:last-child {
-	margin-right: 0;
+  margin-right: 0;
 }
 .textarea {
-	height: 180px;
+  height: 180px;
 }
 
-input[type=submit] {
-	width: 970px;
-	height: 50px;
-	background: #131316;
-	color: #ffe600;
-	font-size: 20px;
-	padding-top: 18px;
-	padding-bottom: 16px;
-	text-align: center;
-	border: none;
+input[type="submit"] {
+  width: 970px;
+  height: 50px;
+  background: #131316;
+  color: #ffe600;
+  font-size: 20px;
+  text-align: center;
+  border: none;
 }
-
 
 footer {
-	background: #131316;
-	width: 100%;
-	height: 100px;	
+  background: #131316;
+  width: 100%;
+  height: 100px;
 }
 
 .footer-wrap {
-	width: 1170px;
-	margin: auto;
-	overflow: hidden;
+  width: 1170px;
+  margin: auto;
+  overflow: hidden;
 }
 
 .footer-wrap > p {
-	font-size: 13px;
-	color: #ffe600;
-	margin-top: 46px;
-	margin-left: 21px;
-	float: left;
-
+  font-size: 13px;
+  color: #ffe600;
+  margin-top: 46px;
+  margin-left: 21px;
+  float: left;
 }
 
 .social {
-	float: right;
+  float: right;
 }
 
 .social li {
-	float: left;
-	display: block;
-	padding-top: 41px;
-	padding-right: 5px;
-	padding-left: 30px;
+  float: left;
+  display: block;
+  padding-top: 41px;
+  padding-right: 5px;
+  padding-left: 30px;
 }
-
